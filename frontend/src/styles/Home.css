@@ -1,0 +1,57 @@
+/* Home Page Styles */
+.home-container {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; /* Keep background image in place */
+    min-height: 100vh; /* Set minimum height for full viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text for responsiveness */
+    color: white; /* Set text color to white for readability on background */
+  }
+  
+  /* Content Section */
+  .benefits {
+    margin-top: 2rem;
+  }
+  
+  .benefits h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #fff; /* Set heading color to white */
+  }
+  
+  .benefits ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #fff; /* Set list item color to white */
+  }
+  
+  .benefits li {
+    margin-bottom: 0.75rem;
+    line-height: 1.5; /* Improve readability */
+  }
+  
+  /* Call to Action Button */
+  .btn-primary {
+    background-color: #007bff; /* Blue color for primary button */
+    border-color: #007bff;
+    padding: 1rem 2rem; /* Adjust padding if needed */
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9; /* Darker blue on hover */
+  }
+  
+  /* Responsiveness (consider adding media queries for different screen sizes) */
+  @media (max-width: 768px) {
+    .home-container h1 {
+      font-size: 1.8rem; /* Adjust heading size for smaller screens */
+    }
+    /* Add more styles for smaller screens as needed */
+  }
+  

@@ -1,0 +1,30 @@
+.userButtons {
+  margin-bottom: 20px;
+}
+
+.card-container {
+  margin-top: 20px;
+}
+
+.card-container form {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: blue;
+  width: 100%; /* Make buttons full-width */
+}
+
+.btn-primary.active {
+  background-color: #007bff;
+}
+
+/* Set fixed height for input fields */
+.form-control {
+  height: 40px;
+}
